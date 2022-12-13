@@ -20,3 +20,10 @@
   font-family: 'Chela One', cursive;
   letter-spacing: 3px;
 }
+
+.browse {
+  background-image: url("/img/browse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
