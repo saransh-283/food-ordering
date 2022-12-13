@@ -1,5 +1,5 @@
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 #hero {
@@ -11,18 +11,46 @@
   position: relative;
 }
 
-.brand{
-  font-family: 'Great Vibes', cursive;
+.brand {
+  font-family: "Great Vibes", cursive;
   letter-spacing: 3px;
 }
 
-.logo{
-  font-family: 'Chela One', cursive;
+.logo {
+  font-family: "Chela One", cursive;
   letter-spacing: 3px;
 }
 
 .browse {
-  background-image: url("/img/browse.jpg");
+  background-image: url("../img/browse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+#rest1 {
+  background-image: url("https://scontent.fbom26-2.fna.fbcdn.net/v/t1.6435-9/86726906_792397844587551_3242537889996734464_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=0xeSDZQa-7QAX_Jwfa5&_nc_ht=scontent.fbom26-2.fna&oh=00_AfASSf8ayiyWIXWmHfgaWOjCu3NnY-Xygz6Xi6ZwCyCcqg&oe=63C0164F");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+#rest2 {
+  background-image: url("https://b.zmtcdn.com/data/pictures/5/18868015/e238cbc0df6c112a037f9ac212293685.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+#rest3 {
+  background-image: url("../img/mahakal/mahakal.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+#rest4 {
+  background-image: url("https://r1imghtlak.mmtcdn.com/194a8afa72b611e789e90a4cef95d023.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
