@@ -5,45 +5,202 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodle | Browse</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet"></head>
   </head>
 <body>
-    <nav class="text-gray-400 bg-gray-900 body-font sticky top-0 z-10">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-            <img src="/img/logo.svg" alt="Foodle" class="h-10 w-10">
-            <span class="ml-3 text-2xl">Foodle</span>
-          </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Categories</a>
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Restaurants</a>
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Deals</a>
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Browse</a>
-          </nav>
-          <a
-            class="text-white cursor-pointer inline-flex items-center bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 rounded-md text-base mt-4 md:mt-0">Browse
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
-    </nav>
+  <nav class="text-gray-400 bg-gray-900 body-font sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between flex-wrap p-5 md:flex-row items-center">
+      <a href="../index.html" class="flex title-font font-medium items-center text-white">
+        <img src="../img/logo.svg" alt="Foodle" class="h-10 w-10">
+        <span class="ml-3 text-2xl">Foodle</span>
+      </a>
+      
+        <nav class="flex flex-wrap items-center gap-5 text-base justify-center">
+        <a
+        href="../restaurants/browse.html"
+        class="text-white cursor-pointer inline-flex items-center bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 rounded-md text-base">Browse
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </a>
+      <a
+      href="../login.html"
+      class="text-white cursor-pointer inline-flex items-center bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 rounded-md text-base">Login</a>
+      <a
+        href="../signup.html"
+        class="text-white cursor-pointer inline-flex items-center border-0 py-2 px-3 focus:outline-none bg-red-500 hover:bg-red-600 rounded-md text-base">Signup</a>
+      </nav>
+    </div>
+  </nav>
     
-    
+    <header class="w-full text-center bg-black space-y-4 browse">
+      <div class="bg-[#000000aa] space-y-4 w-full py-16 px-2">
+        <h1 class="text-4xl text-white">
+          Browse Restaurants
+        </h1>
+        <p class="text-lg text-gray-300">Order from your favourite restaurants, all at one place</p>
+      </div>
+    </header>
+
+    <div class="text-gray-400 bg-gray-900 body-font">
+      <section class="md:w-4/5 md:px-0 py-5 mx-auto w-full px-5 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <a href="./restaurant.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant2.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant3.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant4.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant2.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant3.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant4.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant2.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant3.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant4.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant2.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant3.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+
+        <a href="./restaurant4.html" class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
+          <div class="p-4">
+              <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+              <h3 class="title-font mb-1">North Indian, Chinese</h3>
+              <p class="mt-1 tracking-widest text-gray-500 text-xs">Pawapuri Colony, Ujjain</p>
+          </div>
+        </a>
+      </section>
+    </div>
 
     <footer class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-            <img src="/img/logo.svg" alt="Foodle" class="h-10 w-10">
+          <a href="../index.html" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <img src="../img/logo.svg" alt="Foodle" class="h-10 w-10">
             <span class="ml-3 text-xl">Foodle</span>
           </a>
           <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
             © 2022 Foodle
-            <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank"
-              rel="noopener noreferrer"></a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a class="text-gray-400">

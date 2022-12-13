@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodle</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet"></head>
   </head>
 <body>
-    <nav class="text-gray-400 bg-gray-900 body-font sticky top-0 z-10">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-            <img src="/img/logo.svg" alt="Foodle" class="h-10 w-10">
-            <span class="ml-3 text-2xl">Foodle</span>
-          </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Categories</a>
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Restaurants</a>
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Deals</a>
-            <a class="mr-5 hover:text-white cursor-pointer hover:bg-gray-700 py-2 px-3 rounded-md">Browse</a>
-          </nav>
-          <a
-            class="text-white cursor-pointer inline-flex items-center bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 rounded-md text-base mt-4 md:mt-0">Browse
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
-    </nav>
+  <nav class="text-gray-400 bg-gray-900 body-font sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between flex-wrap p-5 md:flex-row items-center">
+      <a href="../index.html" class="flex title-font font-medium items-center text-white">
+        <img src="../img/logo.svg" alt="Foodle" class="h-10 w-10">
+        <span class="ml-3 text-2xl">Foodle</span>
+      </a>
+      
+        <nav class="flex flex-wrap items-center gap-5 text-base justify-center">
+        <a
+        href="./browse.html"
+        class="text-white cursor-pointer inline-flex items-center bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 rounded-md text-base">Browse
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </a>
+      <a
+      href="../login.html"
+      class="text-white cursor-pointer inline-flex items-center bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 rounded-md text-base">Login</a>
+      <a
+        href="../signup.html"
+        class="text-white cursor-pointer inline-flex items-center border-0 py-2 px-3 focus:outline-none bg-red-500 hover:bg-red-600 rounded-md text-base">Signup</a>
+      </nav>
+    </div>
+  </nav>
 
-    <section class="text-gray-400 bg-gray-900 body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
+    <section class="text-gray-400 p-2 body-font" id="rest4">
+        <div class="container mx-auto bg-[#000000aa] flex px-5 py-24 md:flex-row flex-col-reverse items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font text-6xl mb-4 font-medium text-white">Mahakal Home Food and Restaurant
+            <h1 class="title-font text-6xl mb-4 font-medium text-white">Anjushree Inn
             </h1>
-            <p class="leading-relaxed text-lg">Chinese, Pizza, North Indian, South Indian, Sandwich, Burger</p>
+            <p class="leading-relaxed text-lg">North Indian</p>
             <p class="mb-8 leading-relaxed">Pawapuri Colony, Ujjain</p>
             <div class="flex justify-center">
               <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Order</button>
@@ -45,242 +50,426 @@
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img class="object-cover object-center rounded" alt="hero" src="/img/mahakal/mahakal.avif">
+            <img class="object-cover object-center rounded" alt="hero" src="https://r1imghtlak.mmtcdn.com/194a8afa72b611e789e90a4cef95d023.jpg">
           </div>
         </div>
     </section>
 
-      <section class="text-gray-400 bg-gray-900 body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="text-center text-4xl uppercase text-white font-bold py-4">Top Picks</div>
-            
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div class="w-full border border-gray-700 rounded-lg">
-                <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
-                <div class="p-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                    <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
-                    <p class="mt-1">$16.00</p>
-                </div>
-            </div>
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center text-4xl uppercase text-white font-bold py-4">Top Picks</div>
 
-            <div class="w-full border border-gray-700 rounded-lg">
-                <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
-                <div class="p-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                    <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
-                    <p class="mt-1">$16.00</p>
-                </div>
-            </div>
-
-            <div class="w-full border border-gray-700 rounded-lg">
-                <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
-                <div class="p-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                    <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
-                    <p class="mt-1">$16.00</p>
-                </div>
-            </div>
-
-            <div class="w-full border border-gray-700 rounded-lg">
-                <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
-                <div class="p-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                    <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
-                    <p class="mt-1">$16.00</p>
-                </div>
-            </div>
-
-            <div class="w-full border border-gray-700 rounded-lg">
-                <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
-                <div class="p-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                    <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
-                    <p class="mt-1">$16.00</p>
-                </div>
-            </div>
-
-            <div class="w-full border border-gray-700 rounded-lg">
-                <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg" src="https://dummyimage.com/420x260">
-                <div class="p-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                    <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
-                    <p class="mt-1">$16.00</p>
-                </div>
-            </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg"
+            src="https://www.cookwithmanali.com/wp-content/uploads/2017/03/Best-Kadai-Paneer.jpg">
+          <div class="p-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">main course | veg</h3>
+            <h2 class="text-white title-font text-lg font-medium">Kadhai Paneer</h2>
+            <p class="mt-1">₹315
+            </p>
           </div>
-
-          <hr class="bg-gray-900 md:w-4/5 md:px-0 w-full px-5 mt-5 mx-auto">
         </div>
-      </section>
 
-      <section class="text-gray-400 bg-gray-900 body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="text-center text-4xl uppercase text-white font-bold py-4">Menu</div>
-            <div class="text-2xl uppercase text-gray-500 py-4">Sandwich</div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="text-2xl uppercase text-gray-500 py-4">Sandwich</div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="text-2xl uppercase text-gray-500 py-4">Sandwich</div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="text-2xl uppercase text-gray-500 py-4">Sandwich</div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="text-2xl uppercase text-gray-500 py-4">Sandwich</div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-      
-              <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://dummyimage.com/80x80">
-                <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">Butter Paneer</h2>
-                  <p>₹150</p>
-                </div>
-              </div>
-            </div>
-
-          <hr class="bg-gray-900 md:w-4/5 md:px-0 w-full px-5 mt-5 mx-auto">
+        <div class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg"
+            src="https://c.ndtvimg.com/2020-12/gsb6apq_biryani_625x300_23_December_20.jpg">
+          <div class="p-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">rice and biryani | non-veg</h3>
+            <h2 class="text-white title-font text-lg font-medium">Murgh Dum Biryani
+            </h2>
+            <p class="mt-1">₹355
+            </p>
+          </div>
         </div>
-      </section>
+
+        <div class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg"
+            src="https://www.cubesnjuliennes.com/wp-content/uploads/2022/12/Tandoori-Chicken-Recipe.jpg">
+          <div class="p-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">starters | non-veg</h3>
+            <h2 class="text-white title-font text-lg font-medium">Tandoori Chicken
+            </h2>
+            <p class="mt-1">₹395
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg"
+            src="https://www.funfoodfrolic.com/wp-content/uploads/2021/02/Egg-Curry-Thumbnail.jpg">
+          <div class="p-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">main course | non-veg</h3>
+            <h2 class="text-white title-font text-lg font-medium">Punjabi Egg Curry
+            </h2>
+            <p class="mt-1">₹295
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg"
+            src="https://www.cookwithmanali.com/wp-content/uploads/2019/04/Restaurant-Style-Dal-Makhani-500x500.jpg">
+          <div class="p-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">main course | veg</h3>
+            <h2 class="text-white title-font text-lg font-medium">Dal Makhani</h2>
+            <p class="mt-1">₹275
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full border border-gray-700 rounded-lg">
+          <img alt="ecommerce" class="object-cover object-center w-full h-48 block rounded-t-lg"
+            src="https://www.chefkunalkapur.com/wp-content/uploads/2021/03/Veg-Hot-and-Sour-Soup-scaled.jpg?v=1619881505">
+          <div class="p-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">Soups | veg</h3>
+            <h2 class="text-white title-font text-lg font-medium">Veg Hot and Sour Soup</h2>
+            <p class="mt-1">₹150
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="bg-gray-900 md:w-4/5 md:px-0 w-full px-5 mt-5 mx-auto">
+    </div>
+  </section>
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center text-4xl uppercase text-white font-bold py-4">Menu</div>
+
+      <div class="text-2xl uppercase text-gray-500 py-4">starters</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/6b2/2e449ee498c982dcc42b8568a5e516b2.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Tandoori Paneer Malai Tikka
+            </h2>
+            <p>₹295
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/ac6/4211fd47f8c9419549ddb7ef9f228ac6.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Hara Bhara Kebab
+            </h2>
+            <p>₹265
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/806/b0da02afcb03be4dc262ad777f60b806.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Tandoori Fish Tikka
+            </h2>
+            <p>₹375
+            </p>
+          </div>
+        </div>
+
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/d19/205722a46992fa930f1aa00a11b60d19.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Chilli Paneer
+            </h2>
+            <p>₹295
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/aac/1c69e8e9bdc9b109e32c12f4c793eaac.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Vegetable Manchurian Dry
+            </h2>
+            <p>₹295
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/192/2caae314c03a33e578237cd7f7378192.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Chilli Chicken Dry
+            </h2>
+            <p>₹395
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="text-2xl uppercase text-gray-500 py-4">main course</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/fb3/fea81f24ae68616c445f825cb3d53fb3.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Palak Paneer
+            </h2>
+            <p>₹315
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/925/e48c4b9ef9d9c356422cabe8c6140925.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Shahi Paneer
+            </h2>
+            <p>₹315
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/70e/a6da769d20ec4015e8a4bbba27dd970e.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Paneer Lababdar
+            </h2>
+            <p>₹315
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/5ee/6891bda47450ce851684bbd40e5a25ee.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Kaju Curry
+            </h2>
+            <p>₹315
+
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://static.toiimg.com/thumb/75543821.cms?width=1200&height=900">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Murgh Handi</h2>
+            <p>₹395
+
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://static.toiimg.com/thumb/53523514.cms?imgsize=102389&width=800&height=800">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Kadhai Murgh
+            </h2>
+            <p>₹395
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://www.whiskaffair.com/wp-content/uploads/2021/01/Malabar-Chicken-Curry-2-3.jpg">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Malabar Chicken Curry
+            </h2>
+            <p>₹395
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="text-2xl uppercase text-gray-500 py-4">Breads</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/692/2419c697018461152c3694975faf0692.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Garlic Naan
+            </h2>
+            <p>₹65
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/9d5/75c0624fa3b90b742027ddb9723119d5.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Plain Naan
+            </h2>
+            <p>₹50
+
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/b66/efa5f2524c06845805d69f41a3284b66.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Aloo Bharwan Kulcha
+            </h2>
+            <p>₹91</p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/a36/cae16b8cc0ae617d267a07be3e528a36.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Paneer Bharwan Kulcha</h2>
+            <p>₹91</p>
+          </div>
+        </div>
+
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/bfe/c7cfbe3868c950991a500bb8e91b3bfe.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Tandoori Roti
+            </h2>
+            <p>₹45
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-2xl uppercase text-gray-500 py-4">Rice and biryani</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/1a9/05786eb94433658ddbc86d3ffec211a9.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Steamed Basmati Rice
+
+            </h2>
+            <p>₹175
+
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://img-global.cpcdn.com/recipes/284423a81f85a463/680x482cq70/%E0%A4%AC%E0%A4%9F%E0%A4%B0-%E0%A4%96%E0%A4%9A%E0%A4%A1-butter-khichdi-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Butter Khichdi
+            </h2>
+            <p>265</p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/206/34b2a45220e4f03849bc5b02291e7206.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Subz Dum Biryani
+            </h2>
+            <p>₹295
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/2c0/a1796c144a91faac9b13165f450602c0.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Chicken Vegetable Fried Rice
+
+            </h2>
+            <p>₹325
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://b.zmtcdn.com/data/dish_photos/478/1cbfe4cfa83a75126b141504562b3478.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Vegetable Fried Rice
+            </h2>
+            <p>₹255
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="text-2xl uppercase text-gray-500 py-4">desserts</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://img-global.cpcdn.com/recipes/2a8d7454a56af82a/1200x630cq70/photo.jpg">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Walnut Brownie
+            </h2>
+            <p>₹155
+
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/ritu-arora020161230225525751.jpeg">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Fruit Rabri</h2>
+            <p>₹145
+
+            </p>
+          </div>
+        </div>
+
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/rasmalai-recipe.jpg">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Rasmalai 
+            </h2>
+            <p>₹59
+            </p>
+          </div>
+        </div>
+        
+        <div class="h-full w-full flex items-center border-gray-800 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://photo2.foodgawker.com/wp-content/uploads/2017/10/3087603.jpeg">
+          <div class="flex-grow">
+            <h2 class="text-white title-font font-medium">Zauq E Shahi 
+            </h2>
+            <p>₹145
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <hr class="bg-gray-900 md:w-4/5 md:px-0 w-full px-5 mt-5 mx-auto">
+    </div>
+  </section>
 
       <footer class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-            <img src="/img/logo.svg" alt="Foodle" class="h-10 w-10">
+          <a href="../index.html" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <img src="../img/logo.svg" alt="Foodle" class="h-10 w-10">
             <span class="ml-3 text-xl">Foodle</span>
           </a>
           <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
             © 2022 Foodle
-            <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank"
-              rel="noopener noreferrer"></a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a class="text-gray-400">
@@ -316,4 +505,5 @@
         </div>
       </footer>
 </body>
+
 </html>
